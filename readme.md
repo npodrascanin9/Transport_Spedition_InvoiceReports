@@ -9,9 +9,15 @@
 - The client recently requested an invoice report for various services, where each company can have multiple invoices.
 - The current procedure: spGetInvoiceReportById_v1 (located in the 4. Stored Procedures folder) returns two result sets: invoice details and invoice items.
 - However, over time, new requirements have been made - incoterm rules.
-Table: Incoterm Rules:
-![alt text](image-1.png)
 
+<br>
+Table: Incoterm Rules:
+
+<br>
+
+<img width="1587" height="92" alt="image" src="https://github.com/user-attachments/assets/9ee5cc99-8aee-47eb-9234-e04e2abe8804" />
+
+<br>
 
 ### II) What are incoterm rules?
 - Incoterm rules in transporation & spedition represent the relationships between the seller and the buyer regarding: obligations, costs, and responsibilities during the transportation and delivery of goods. 
