@@ -15,7 +15,8 @@ Table: Incoterm Rules:
 
 <br>
 
-<img width="1587" height="92" alt="image" src="https://github.com/user-attachments/assets/9ee5cc99-8aee-47eb-9234-e04e2abe8804" />
+<img width="1633" height="97" alt="image" src="https://github.com/user-attachments/assets/3f577ac8-e8ca-41d2-b1f5-3e7744a67617" />
+
 
 <br>
 
@@ -23,7 +24,10 @@ Table: Incoterm Rules:
 - Incoterm rules in transporation & spedition represent the relationships between the seller and the buyer regarding: obligations, costs, and responsibilities during the transportation and delivery of goods. 
 - They define who is responsible for what, when, and where, as well as who bears the costs at various stages of delivery. Parities are key to ensuring clarity and protecting interests in international trade.
 - For a better understanding the concept, here is the picture bellow:
-  ![alt text](image.png)
+
+<br>
+<img width="598" height="602" alt="image" src="https://github.com/user-attachments/assets/589def89-e843-45ba-81de-92844870ed58" />
+<br>
 
 ### III) Business scenario examples regarding incoterm rules
 - if **EXW** is selected, the buyer is responsible for all the cost types.
@@ -42,25 +46,35 @@ Table: Incoterm Rules:
 ### I) New tables (ERP - Entity relationship diagram)
 
 #### a) Current tables:
-![alt text](image-2.png)
+
+<img width="1358" height="582" alt="image" src="https://github.com/user-attachments/assets/400c976d-ab38-4c5f-9a68-df85fc8ef783" />
+
+
+<br>
 
 - In this version, there are no tables like IncotermRules, which is actually what the client requires.
 
 #### b) New tables that need to be created and populated:
-![alt text](image-3.png)
+
+<img width="1340" height="882" alt="image" src="https://github.com/user-attachments/assets/5fe25ee4-bb02-4d6a-bbd5-874a72b4ddd0" />
+
+
+<br>
 
 > Note: column **CompanyId** is dropped in the table **Invoices**. So, we are gonna use this table - **InvoiceSubjects** instead.
 
 ### II) Stored Procedures
 - **old procedure**: `spGetInvoiceReportById_v1` — simply displays details of an invoice, including items. Picture bellow as an example:
 
-![alt text](image-6.png)
+<img width="1156" height="487" alt="image" src="https://github.com/user-attachments/assets/de5c71e7-57c2-4975-bc50-76deed158f75" />
+
 
 <br>
 
 - **new procedure**: `spGetInvoiceReportById_v2` — this version includes new logic regarding incoterm rules (who owes who'm, and how much). Picture bellow as an example:
 
-![alt text](image-7.png)
+<img width="1702" height="562" alt="image" src="https://github.com/user-attachments/assets/cf48f7ce-0d60-4ec2-b277-50e577dcab38" />
+
 
 <br>
 
