@@ -61,7 +61,7 @@ Table: Incoterm Rules:
 
 <br>
 
-- New tables include: InvoiceSubjects, IncotermRules, IncotermCostResponsibilities.
+- New tables include: Subjects, InvoiceSubjects, IncotermRules, and IncotermCostResponsibilities.
 
 > Note: column **CompanyId** is dropped in the table **Invoices**. So, we are gonna use this table - **InvoiceSubjects** instead.
 
