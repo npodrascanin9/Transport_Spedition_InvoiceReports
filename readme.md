@@ -61,6 +61,8 @@ Table: Incoterm Rules:
 
 <br>
 
+- New tables include: InvoiceSubjects, IncotermRules, IncotermCostResponsibilities.
+
 > Note: column **CompanyId** is dropped in the table **Invoices**. So, we are gonna use this table - **InvoiceSubjects** instead.
 
 ### II) Stored Procedures
