@@ -15,7 +15,7 @@ Table: Incoterm Rules:
 
 <br>
 
-<img width="1633" height="97" alt="image" src="https://github.com/user-attachments/assets/3f577ac8-e8ca-41d2-b1f5-3e7744a67617" />
+<img width="1633" height="150" alt="image" src="https://github.com/user-attachments/assets/3f577ac8-e8ca-41d2-b1f5-3e7744a67617" />
 
 
 <br>
